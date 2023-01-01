@@ -1,0 +1,120 @@
+/* carousel */
+
+
+.carousel-inner .carousel-item
+{
+    width: 90%;
+   
+    background-size:cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 10%;
+    
+    margin-bottom: 10%;
+    
+    
+}
+
+.uli{
+color: #0D324D;
+font-size: 90%;
+list-style: none;
+
+margin-left: 50%;
+font-family: 'Zen Antique', serif;
+font-weight: bold;
+
+}
+
+.carousel-inner.carousel-item::before{
+content: '';
+background-color: rgba(12,11, 10, 0.5);
+
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+
+
+
+}
+
+
+.carousel-caption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    top: 45%;
+    left: 0;
+    right: 0;
+}
+ .carousel-caption h2{
+    color: olive;
+    margin-top: 50;
+    margin-bottom: 15px;
+    font-size: 80px;
+    font-weight: 800;
+    width: 80%;
+    margin: 0px auto 10px auto;
+}
+
+
+h3{
+    text-align: left;
+    opacity: 0.6;
+    font-size: 250%;   
+    
+}
+
+
+.filter-items {
+    width: 100%;
+ }
+ 
+
+ .carousel-caption-3
+ {
+     margin-top: -45%;
+ }
+ .carousel-caption-4{
+    margin-top:-50%;
+ }
+ .img{
+    width:50%;
+ }
+ 
+ .img1{
+   width: 50%;
+ }
+ .img2{
+   width: 50%;
+ }
+ .img3{
+   width: 26%;
+ }
+ .img4{
+   width: 30%;
+ }
+ .img5{
+   width: 50%;
+ }
+ .img6{
+   width: 60%;
+ }
+ .img7{
+   width: 50%;
+   
+ }
+p{
+   color: black;
+}
+li{
+   color: black;
+}
+h1{
+   color: black;
+}
+ 

@@ -1,0 +1,23 @@
+@import url('https:\\fonts.googleapis.com/css2?family=poppins:weight@200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    
+    font-family: 'poppins',sans-serif;
+
+}
+
+
+#border{
+    border: 1px solid rebeccapurple;
+    border-radius: 20px;
+    background-color: hsla(0, 0%, 100%, 0.3);
+    backdrop-filter: blur(10px);
+    
+}
+
+#contact{
+    color: rebeccapurple;
+    font-weight: 400;
+    font-size: 50px;
+    text-decoration: none;
+}
